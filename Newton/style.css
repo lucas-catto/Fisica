@@ -47,6 +47,15 @@ h2 {
 
 .container { height:    100%; }
 
+section {
+    padding:          10px 0;
+    gap:              10px;
+    display:          flex;
+    flex-direction:   column;
+    align-items:      center;
+    justify-content:  center;
+}
+
 #section-1 { width:     60%;  }
 #section-2 { width:     40%;  }
 
@@ -108,7 +117,7 @@ footer p {
     color: white;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1380px) {
     main {
         padding: 10px;
         flex-direction: column;
