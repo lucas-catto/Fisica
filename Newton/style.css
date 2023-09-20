@@ -45,7 +45,7 @@ h2 {
     border-bottom:    1px solid rgb(124, 0, 0);
 }
 
-.container { height:    100%; }
+.container { height: 100%; }
 
 section {
     padding:          10px 0;
@@ -114,7 +114,7 @@ footer {
 
 footer p {
     font-size: 17px;
-    color: white;
+    color:     white;
 }
 
 @media screen and (max-width: 1380px) {
