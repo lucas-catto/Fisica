@@ -31,7 +31,7 @@ main {
     height:           auto;
 
     display:          flex;
-    align-items:      center;
+    flex-direction:   column;
     padding:          0 30px;
     background-color: rgb(206, 180, 180);
 }
@@ -46,6 +46,12 @@ h2 {
 }
 
 .container { height: 100%; }
+
+.parte-1 { display: flex; }
+.parte-2 {
+    display:         flex;
+    justify-content: center;
+}
 
 section {
     padding:          10px 0;
@@ -67,6 +73,8 @@ section {
 
 #section-1 { width:     60%;  }
 #section-2 { width:     40%;  }
+
+#section-3 .item h4 { font-size: 38px; }
 
 img {
     width:            100%;
@@ -127,8 +135,8 @@ footer p {
 }
 
 @media screen and (max-width: 1380px) {
-    main {
-        padding: 10px;
+    .parte-1 {
+        padding:        10px;
         flex-direction: column;
     }
     #section-1 { width:100%; }
